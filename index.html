@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./img/main-logo-white.png"
+    />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Soomatic | When science meets sport</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo-area" href="#">
+          <img class="main-logo" src="./img/main-logo3.png" alt="main-logo" />
+          <img
+            class="second-logo"
+            src="./img/second-logo.svg"
+            alt="second-logo"
+          />
+        </a>
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Nutrition</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Workouts</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Try for free</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <div class="hero-1">
+          <h1>
+            When
+            <span class="highlight">science</span>
+            meets<br />
+            <span class="highlight">bodybuilding</span>
+          </h1>
+          <h4>
+            A smarter lifestyle experience for a better health, you’ll reach
+            your goals and the shape that you always wanted in the shortest time
+            without wasting any energy or money.
+          </h4>
+
+          <div class="two-button-area">
+            <a
+              class="nav__link nav__link--btn btn--show-modal start-btn"
+              href="#"
+              >Start your journey</a
+            >
+            <div class="icon-area-learn">
+              <button class="btn--text btn--scroll-to">Learn more</button>
+              <ion-icon
+                class="arrow-learn"
+                name="chevron-forward-sharp"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <div class="credit-area">
+            <i class="ph-credit-card-thin icon-credit"></i>
+            <p class="credit-text">
+              No credit card is required at all. Plans start at $0/mo.
+            </p>
+          </div>
+        </div>
+
+        <img src="./img/hero-main.webp" class="header__img" />
+      </div>
+    </header>
+
+    <a href="#" class="contact-us">
+      <img class="contact-svg" src="./img/contact.svg" alt="" />
+    </a>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Workouts</h2>
+        <h3 class="section__header">
+          Everything you need in a modern Workout system.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="./img/six-pack-lazy.jpg"
+          data-src="./img/six-pack.jpg"
+          alt="Man"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <img class="features-svg" src="./img/abs.svg" alt="icon" />
+          </div>
+          <h5 class="features__header">“6 Pack” Abs At Home</h5>
+          <p>
+            You don't have to go to the gym to build six-pack abs. Here, I show
+            you a highly effective abs workout you can do right at home - or
+            anywhere, really, to finally get that muscle definition in your
+            midsection.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <img class="features-svg" src="./img/glute.svg" alt="icon" />
+          </div>
+          <h5 class="features__header">Best Glutes Workout To Grow</h5>
+          <p>
+            Struggle with a flat butt no more. In this article, I cover the butt
+            workout (featuring 6 of the best glute exercises around) you should
+            be doing for a perky butt.
+          </p>
+        </div>
+        <img
+          src="./img/glute-lazy.jpg"
+          data-src="./img/glute.jpg"
+          alt="woman"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="./img/back-lazy.jpg"
+          data-src="./img/back.jpg"
+          alt="back"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <img class="features-svg" src="./img/back.svg" alt="icon" />
+          </div>
+          <h5 class="features__header">Increase Pull-Ups From 0 to 10+ Reps</h5>
+          <p>
+            this exercise does come with a price. Pull-ups are generally one of
+            the most difficult exercises to master. In fact, most individuals
+            have yet to even achieve their first pull up. And for those who
+            have.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Nutrition</h2>
+        <h3 class="section__header">
+          An organized diet throughout life helps to maintain a healthy body
+          weight.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span> Weight Loss
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Build Muscles
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Supplements
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <img class="operations-svg" src="./img/slim.svg" alt="icon" />
+          </div>
+          <h5 class="operations__header">
+            The Perfect Weight Loss Meal Plan To Get Lean.
+          </h5>
+          <p>
+            After calories, the next most important component of your weight
+            loss meal plan is how much protein it contains. We want to include
+            enough protein to be able to maintain your muscle as you lose fat.
+            Eat too little protein, and you'll risk losing muscle.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <img class="operations-svg" src="./img/arm.svg" alt="icon" />
+          </div>
+          <h5 class="operations__header">
+            What To Eat To Build Muscle Faster The Best Bulking Meal Plan
+          </h5>
+          <p>
+            Maximize the resulting growth you experience from your workout by
+            optimizing your nutrition. Find out exactly how and what to eat to
+            build muscle in this article. Your workouts are what provide the
+            damage and stimulus for your muscles to grow.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <img
+              class="operations-svg"
+              src="./img/Supplements.svg"
+              alt="icon"
+            />
+          </div>
+          <h5 class="operations__header">
+            Hydrolyzed Collagen The Best Supplement for Skin Care.
+          </h5>
+          <p>
+            With age, our skin shrivels up - growing dry and wrinkled - before
+            sagging. Plus, if we’re not careful, the sun can damage our skin
+            too; leaving us with spots and stains. Worse though, our skin gets
+            covered in gaping pores over time. To say nothing of the loose skin.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of Soomatics are already making their lifes healtier.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Best website for workout freaks!
+            </h5>
+            <blockquote class="testimonial__text">
+              I am going to share my experience with bodybuilding website.
+              Friends this is the one of the best website I have ever seen.
+              Their contents are extremely good. Their program are excellent
+              whichever ypur goals are you can follow their programs. They have
+              all types of programs.I also followed a fat loss program and lost
+              12 kg in only 8 weeks.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Katerina Johnny</h6>
+              <p class="testimonial__location">Minsk, Belarus</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Such great products with low cost.
+            </h5>
+            <blockquote class="testimonial__text">
+              These advices for building body are good enough I even I tried all
+              these methods in such a short time at home these are the such easy
+              methods as much I know even I checked other websites too they
+              are'nt that much useful as much this website is we got products
+              and such low costs even we can practice the exercises using these
+              products at home.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Saddam Hussein</h6>
+              <p class="testimonial__location">Baghdad, Iraq</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              A finess website that will not broke your trust.
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="./img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Fyodor Dostoevsky</h6>
+              <p class="testimonial__location">Moscow, Russia</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Soomatic was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account now!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <a href="#">
+        <img src="./img/main-logo-white.png" alt="Logo" class="footer__logo" />
+      </a>
+      <p class="footer__copyright">
+        &copy; Designed © 2022 By
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://github.com/MustafaJohnny"
+          >Mustafa Johnny</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Get your free subscription <br />
+        in just <span class="highlight"> 2 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
