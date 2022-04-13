@@ -11,7 +11,7 @@ Soomatic website simulates the real experience of famous fitness websites or a b
 
 ## Links
 
-- Live Site URL: 
+- Live Site URL: https://mustafajohnny.github.io/Soomatic/
 
 
 ## Built with
